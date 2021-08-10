@@ -6,7 +6,7 @@ Necessita do node.js, npm e yarn
 
 - Pra instalar o yarn:
 
-npm install --global yarn
+  npm install --global yarn
 
 npm install lite-server --save-dev
 yarn add lite-server --dev
