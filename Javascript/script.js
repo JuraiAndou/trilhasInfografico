@@ -11,16 +11,30 @@ $.get("Javascript/data.json", function(file){
 
 
 $(document).ready(function(){
-    console.log(data[0].paises)
+    console.log(data)
 });
 
 function add_click_event(){
     $("#btn-mexico").on("click", print_mexico)
     $("#btn-hawaii").on("click", print_us)
+    $(".cadeira").each(function(){
+        $(this).on("click", pop_up_cadeira($(this).id))
+    })
 }
+
+function pop_up_cadeira(elemento) {
+    console.log("smd")
+    for (let i = 0; i < data.length; i++) {
+        if(elemento == data[i].id){
+            $("body").append("Foi!")
+        }
+        
+    }
+}
+
 function print_mexico(){
-    $("body").append("<p>"+data[0].paises.mexico+"</p>")
+    $("body").append("<p>"+data[0].info.nome+"</p>")
 }
 function print_us(){
-    $("body").append("<p>"+data[0].paises.us+"</p>")
+    $("body").append("<p>"+data[0].id+"</p>")
 }
