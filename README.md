@@ -10,6 +10,7 @@ npm install --global yarn
 ```
 - Instalando o servidor:
 ```
+npm init
 npm install lite-server --save-dev
 yarn add lite-server --dev
 ```
