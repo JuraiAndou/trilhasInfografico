@@ -18,15 +18,14 @@ function add_click_event(){
     $("#btn-mexico").on("click", print_mexico)
     $("#btn-hawaii").on("click", print_us)
     $(".cadeira").each(function(){
-        $(this).on("click", pop_up_cadeira($(this).id))
+        $(this).on("click", pop_up_cadeira)
     })
 }
 
-function pop_up_cadeira(elemento) {
-    console.log("smd")
+function pop_up_cadeira() {
     for (let i = 0; i < data.length; i++) {
-        if(elemento == data[i].id){
-            $("body").append("Foi!")
+        if($(this).attr('id') == data[i].id){
+            $("body").append("<p>Foi!</p>")
         }
         
     }
