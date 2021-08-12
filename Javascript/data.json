@@ -1,18 +1,26 @@
 [
     {
-        "id" : "SMD01",
-        "info" : {
-            "nome" : "APS",
-            "carga_horaria" : "64h",
-            "descricao" : "sdffdgsfdg"
+        "id": "SMD01",
+        "info": {
+            "nome": "APS",
+            "carga_horaria": "64h",
+            "descricao": "sdffdgsfdg"
         }
     },
     {
-        "id" : "SMD02",
-        "info" : {
-            "nome" : "Redes",
-            "carga_horaria" : "64h",
-            "descricao" : "sdffdgsfdg"
+        "id": "SMD02",
+        "info": {
+            "nome": "Redes",
+            "carga_horaria": "64h",
+            "descricao": "sdffdgsfdg"
+        }
+    },
+    {
+        "id": "SMD03",
+        "info": {
+            "nome": "Design emocional",
+            "carga_horaria": "64h",
+            "descricao": "sdffdgsfdg"
         }
     }
 ]
