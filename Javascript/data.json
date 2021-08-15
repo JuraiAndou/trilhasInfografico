@@ -1,26 +1,250 @@
 [
     {
-        "id": "SMD01",
+        "id": "SMD0102",
         "info": {
-            "nome": "APS",
+            "nome": "Metodologia de Pesquisa",
             "carga_horaria": "64h",
-            "descricao": "sdffdgsfdg"
+            "descricao": "Fundamentos de metodologia científica. Elementos do projeto: motivação, justificativa, problema, referencial teórico, objetivo, metodologia, referências bibliográficas. Modalidades de TCC. "
         }
     },
     {
-        "id": "SMD02",
+        "id": "SMD0025",
         "info": {
-            "nome": "Redes",
+            "nome": "Ética e Política Autoral",
             "carga_horaria": "64h",
-            "descricao": "sdffdgsfdg"
+            "descricao": " A Ética na História. A Ética e a Moral nos campos social e profissional. A Propriedade Intelectual. Códigos de Ética Profissional. Ética hacker."
         }
     },
     {
-        "id": "SMD03",
+        "id": "SMD0100",
         "info": {
-            "nome": "Design emocional",
+            "nome": "Gestão de Projetos",
             "carga_horaria": "64h",
-            "descricao": "sdffdgsfdg"
+            "descricao": "Introdução a Gestão de Projetos. Características dos Projetos Multimídia. Modelos de Projetos Multimídia. Os Profissionais envolvidos em Projetos Multimídia. Gerenciamento da Equipe e cronograma."
+        }
+    },
+    {
+        "id": "SMD0101",
+        "info": {
+            "nome": "Projeto integrado 2",
+            "carga_horaria": "64h",
+            "descricao": "Definição de características iniciais do produto multimídia de complexidade média ou alta. Estabelecimento de metodologia de desenvolvimento."
+        }
+    },
+    {
+        "id": "SMD0111",
+        "info": {
+            "nome": "PTCC",
+            "carga_horaria": "64h",
+            "descricao": "Processo de elaboração de projetos. Roteiro: título, caracterização do problema e justificativa, objetivos, metas, metodologia, cronograma e referências bibliográficas."
+        }
+    },
+    {
+        "id": "SMD0077",
+        "info": {
+            "nome": "TCC",
+            "carga_horaria": "128h",
+            "descricao": "Devido ao caráter prático do curso, o trabalho de conclusão proposto almeja o desenvolvimento, individual ou em grupo, de um produto multimídia integrado. Para o caso de desenvolvimento em grupo, cada discente deverá atuar no campo específico da sua respectiva área de concentração, contribuindo com seus conhecimentos adquiridos para a elaboração do produto."
+        }
+    },
+    {
+        "id": "SMD0103",
+        "info": {
+            "nome": "Seminários em Multimídia",
+            "carga_horaria": "64h",
+            "descricao": "Eventos com convidados apresentando tendências nas áreas relacionadas a Sistemas e Mídias Digitais. Leitura e análise de artigos de congressos e publicações relacionadas com Sistemas e Mídias Digitais."
+        }
+    },
+    {
+        "id": "SMD0030",
+        "info": {
+            "nome": "Análise de projetos de sistemas",
+            "carga_horaria": "64h",
+            "descricao": "Introdução à análise de sistemas. Ciclo de vida e os paradigmas de desenvolvimento de software. Metodologias de modelagem de sistemas. UML - Unified Modeling Language."
+        }
+    },
+    {
+        "id": "SMD0037",
+        "info": {
+            "nome": "Redes de Computadores",
+            "carga_horaria": "64h",
+            "descricao": "Introdução às redes de computadores e a Internet. Estudo aprofundado das camadas TCP/IP: Aplicação, Transporte, Rede, Enlace e Física. "
+        }
+    },
+    {
+        "id": "SMD0055",
+        "info": {
+            "nome": "Engenharia de Software",
+            "carga_horaria": "64h",
+            "descricao": "Evolução, terminologia e estado da arte da Engenharia de Software. Modelos de processo de desenvolvimento. Principais modelos, metodologias, técnicas e ferramentas utilizadas na Engenharia de Software."
+        }
+    },
+    {
+        "id": "SMD0099",
+        "info": {
+            "nome": "Banco de Dados",
+            "carga_horaria": "64h",
+            "descricao": "Sistemas de Banco de Dados. Modelo Entidade-Relacionamento. Modelo Relacional. Projeto de banco de dados. Linguagem SQL. Aplicações em Bancos de Dados."
+        }
+    },
+    {
+        "id": "SMD0017",
+        "info": {
+            "nome": "Programação Orientada a objetos",
+            "carga_horaria": "64h",
+            "descricao": "Conceitos Básicos de Orientação a Objetos – Classes, atributos, métodos, controle de acesso a métodos (serviços) e atributos, assinatura, construtores, destrutores, gerência de memória."
+        }
+    },
+    {
+        "id": "SMD0122",
+        "info": {
+            "nome": "Programação para Dispositivos Móveis",
+            "carga_horaria": "64h",
+            "descricao": "Desenvolvimento de software móvel. Fragmentação e seus desafios. Técnicas de programação para dispositivos móveis. Plataformas. Explorando novos recursos."
+        }
+    },
+    {
+        "id": "SMD0021",
+        "info": {
+            "nome": " Gestão de Negócios Multimídia",
+            "carga_horaria": "64h",
+            "descricao": "Entendendo o Significado da Administração. Definindo o Negócio de Sua Empresa. Articulando Recursos e Competências. Gestão de pessoas. Gestão Operacional."
+        }
+    },
+    {
+        "id": "SMD0052",
+        "info": {
+            "nome": " Programação Web",
+            "carga_horaria": "64h",
+            "descricao": "Estrutura de funcionamento da World Wide Web. Modelos de programação para web. Linguagens de script para interface de aplicações web e formulários."
+        }
+    },
+    {
+        "id": "SMD0048",
+        "info": {
+            "nome": "Teste de Software Aplicados",
+            "carga_horaria": "64h",
+            "descricao": "Introdução a Testes de Software. Conceitos e Tipos de Testes de Software. Processos de Testes de Software. Testes Unitá"
+        }
+    },
+    {
+        "id": "SMD0045",
+        "info": {
+            "nome": "Linguagem Script",
+            "carga_horaria": "64h",
+            "descricao": "Introdução a linguagem script. Linguagem compilada X interpretada. Prototipagem. Programação Web. Scripts para configuração e extensão de softwares. Programação em uma linguagem de programação script."
+        }
+    },
+    {
+        "id": "SMD0098",
+        "info": {
+            "nome": "Desenho 2",
+            "carga_horaria": "64h",
+            "descricao": "Linguagem e criação visual. Técnicas de representação e elementos gráficos. Técnicas de desenho manual e digital. Análise e experimentação gráfica. Representação visual aplicada."
+        }
+    },
+    {
+        "id": "SMD0090",
+        "info": {
+            "nome": "Semiótica Aplicada",
+            "carga_horaria": "64h",
+            "descricao": "Perspectiva histórica e contemporânea da semiótica e sua relação com as mídias digitais, com particular ênfase às teorias semióticas e à semiótica da cultura e da arte. Conceitos de signo e significação."
+        }
+    },
+    {
+        "id": "SMD0119",
+        "info": {
+            "nome": "TADIG",
+            "carga_horaria": "64h",
+            "descricao": "Aprofundar o conhecimento dos alunos sobre a fundamentação de Interfaces Gráficas aplicadas a dispositivos móveis e jogos digitais. Além disso, desenvolver que no aluno uma visão crítica para o desenvolvimento de interfaces para os âmbitos anteriormente citados."
+        }
+    },
+    {
+        "id": "SMD0130",
+        "info": {
+            "nome": "Design Emocional",
+            "carga_horaria": "64h",
+            "descricao": "Aprofundar o conhecimento do aluno com a aplicação prática de conceitos de cognição aplicados à interação computacional, em projetos reais. Além disso, familiarizar os alunos com os conceitos básicos acerca de tecnologias de design emocional e interações sedutoras."
+        }
+    },
+    {
+        "id": "SMD0113",
+        "info": {
+            "nome": "Laboratório de Criatividade",
+            "carga_horaria": "64h",
+            "descricao": "Definições de criação, inovação e criatividade. Os processos criativos e seu uso no Design. Desenvolvimento e a aplicação prática de técnicas criativas. Bloqueios e Desbloqueadores. Técnicas de geração de ideias."
+        }
+    },
+    {
+        "id": "SMD0051",
+        "info": {
+            "nome": "Redação para Midias Digitais",
+            "carga_horaria": "64h",
+            "descricao": " Introdução aos aspectos teóricos (com ênfase à interação e interatividade) e práticos dos diversos gêneros textuais no suporte das tecnologias digitais. O hipertexto."
+        }
+    },
+    {
+        "id": "SMD0117",
+        "info": {
+            "nome": "Interação humano computador 2",
+            "carga_horaria": "64h",
+            "descricao": "-"
+        }
+    },
+    {
+        "id": "SMD0056",
+        "info": {
+            "nome": "Direção de Arte",
+            "carga_horaria": "64h",
+            "descricao": "Metodologias de desenvolvimento de produtos multimídia. Geração de produtos específicos: infográfico, página web, hot-site, CD-ROM multimídia, DVD, jogos, quadrinhos e outros."
+        }
+    },
+    {
+        "id": "SMD0118",
+        "info": {
+            "nome": "Teoria e Crítica de Design",
+            "carga_horaria": "64h",
+            "descricao": "Aprofundar o conhecimento dos alunos sobre a fundamentação de Design aplicado a diversas esferas da sociedade. Além disso, desejamos que o aluno desenvolva uma visão crítica do processo de design e do produto gerado, de acordo com os diferentes âmbitos estudados."
+        }
+    },
+    {
+        "id": "SMD0110",
+        "info": {
+            "nome": "Comunicação Visual 2",
+            "carga_horaria": "64h",
+            "descricao": " Construção do significado. Gestalt aplicada à programação visual. Uso da cor e harmonias cromáticas.Criatividade.Sistemas de identidade visual."
+        }
+    },
+    {
+        "id": "",
+        "info": {
+            "nome": "",
+            "carga_horaria": "64h",
+            "descricao": ""
+        }
+    },
+    {
+        "id": "",
+        "info": {
+            "nome": "",
+            "carga_horaria": "64h",
+            "descricao": ""
+        }
+    },
+    {
+        "id": "",
+        "info": {
+            "nome": "",
+            "carga_horaria": "64h",
+            "descricao": ""
+        }
+    },
+    {
+        "id": "",
+        "info": {
+            "nome": "",
+            "carga_horaria": "64h",
+            "descricao": ""
         }
     }
 ]
