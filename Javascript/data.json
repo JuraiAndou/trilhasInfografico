@@ -216,7 +216,7 @@
         }
     },
     {
-        "id": "SMD0096",
+        "id": "SMD0053",
         "info": {
             "nome": "Programação para jogos",
             "carga_horaria": "64h",
@@ -224,27 +224,123 @@
         }
     },
     {
-        "id": "",
+        "id": "SMD0023",
         "info": {
-            "nome": "",
+            "nome": "Design de Jogos",
             "carga_horaria": "64h",
-            "descricao": ""
+            "descricao": "O que é design de jogos. Gêneros. A experiência do jogo. Estrutura de um jogo. Elementos de um jogo. Interação. Análise do jogador. Mecânicas de um jogo. Interfaces de jogos. Temas."
         }
     },
     {
-        "id": "",
+        "id": "SMD0057",
         "info": {
-            "nome": "",
+            "nome": "Conc. De Cenários e Personagens",
             "carga_horaria": "64h",
-            "descricao": ""
+            "descricao": "Descrição: Projetos de ambientação. Design de cenários e caracterização de personagens. Atividades baseadas na interpretação de roteiros, de orientações de direção, pesquisas históricas e culturais."
         }
     },
     {
-        "id": "",
+        "id": "SMD0035",
         "info": {
-            "nome": "",
+            "nome": "Mat. e Fis. para jogos",
             "carga_horaria": "64h",
-            "descricao": ""
+            "descricao": "Representação numérica. Sistemas de coordenadas. Vetores. Matrizes. Quatérnios. Elementos geométricos. Transformações geométricas. Curvas e superfícies"
+        }
+    },
+    {
+        "id": "SMD0048",
+        "info": {
+            "nome": "Teste de Software",
+            "carga_horaria": "64h",
+            "descricao": " Introdução a Testes de Software. Conceitos e Tipos de Testes de Software. Processos de Testes de Software. Testes Unitários. TDD."
+        }
+    },
+    {
+        "id": "SMD0039",
+        "info": {
+            "nome": "Cultura de jogos",
+            "carga_horaria": "64h",
+            "descricao": " Definição e conceituação de jogos eletrônicos. Narratologia e Ludologia. História dos Jogos eletrônicos. Plataformas e dispositivos. Influências dos jogos na cultura contemporânea"
+        }
+    },
+    {
+        "id": "SMD0054",
+        "info": {
+            "nome": "IA para Jogos",
+            "carga_horaria": "64h",
+            "descricao": "O que é inteligência computacional. Inteligência computacional e os jogos. Interação e comportamento. Técnicas de movimentação e predição de movimento. Mecanismos de percepção."
+        }
+    },
+    {
+        "id": "SMD0034",
+        "info": {
+            "nome": "Modelagem 3D",
+            "carga_horaria": "64h",
+            "descricao": "Primitivas gráficas tridimensionais. Modelagem por sobreposição de elementos. Técnicas específicas de modelagem. Modelagem por aplicação de modificadores"
+        }
+    },
+    {
+        "id": "SMD0016",
+        "info": {
+            "nome": "Linguagem Audiovisual",
+            "carga_horaria": "64h",
+            "descricao": "Técnicas de produção de áudio e de vídeo. Movimentos de câmera. Enquadramentos. Análise técnica. O papel do som: ruído, trilha, voz e efeitos. Sonorização. Linguagem: linear e não-linea"
+        }
+    },
+    {
+        "id": "SMD0129",
+        "info": {
+            "nome": "Tec. de Animação 2D",
+            "carga_horaria": "64h",
+            "descricao": "História da animação. Introdução ao universo da animação. Estudo específico das técnicas, procedimentos. Princípios e técnicas da animação clássica: teoria e prática."
+        }
+    },
+    {
+        "id": "SMD0071",
+        "info": {
+            "nome": "Videografismo",
+            "carga_horaria": "64h",
+            "descricao": "Compreender os conceitos de imagem e fotografia, conhecendo e explorando as potencialidades artísticas e documentais da captura de imagens digitais, a partir do domínio técnico da câmera digital e do conhecimento dos gêneros, práticas e experimentos na produção contemporânea das imagens."
+        }
+    },
+    {
+        "id": "SMD0032",
+        "info": {
+            "nome": "Design de Som",
+            "carga_horaria": "64h",
+            "descricao": "O universo sonoro e a estética do som. Fundamentos de composição musical. Estilos musicais e suas perspectivas midiáticas. Uso narrativo da trilha sonora e de efeitos sonoros em projetos multimídia."
+        }
+    },
+    { 
+        "id": "SMD0086",
+        "info": {
+            "nome": "Fotografia Digital.",
+            "carga_horaria": "64h",
+            "descricao": "Compreender os conceitos de imagem e fotografia, conhecendo e explorando as potencialidades artísticas e documentais da captura de imagens digitais, a partir do domínio técnico da câmera digital e do conhecimento dos gêneros, práticas e experimentos na produção contemporânea das imagens."
+        }
+    },
+    {
+        "id": "SMD0020",
+        "info": {
+            "nome": "Prot. de jogos tridimensionais",
+            "carga_horaria": "64h",
+            "descricao": "Conceitos de Jogos Digitais 3D. Introdução a modelagem tridimensional. Bases de texturas e iluminação para jogos tridimensionais. Fundamentos de animação 3D. Programação visual de jogos tridimensionais"
+        }
+    },
+    {
+        "id": "SMD0124",
+        "info": {
+            "nome": "PACA",
+            "carga_horaria": "64h",
+            "descricao": "N/a"
+        }
+    },
+    {
+        "id": "SMD0128",
+        "info": {
+            "nome": "Tec. de Animação 3D",
+            "carga_horaria": "64h",
+            "descricao": "N/a"
         }
     }
 ]
