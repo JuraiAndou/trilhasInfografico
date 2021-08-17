@@ -216,11 +216,11 @@
         }
     },
     {
-        "id": "",
+        "id": "SMD0096",
         "info": {
-            "nome": "",
+            "nome": "Programação para jogos",
             "carga_horaria": "64h",
-            "descricao": ""
+            "descricao": "Representação de personagens, cenários e objetos. Animação. Inclusão de som e música. Técnicas de Scrolling. Detecção de colisão. Motores gráficos: estrutura e conceitos."
         }
     },
     {
