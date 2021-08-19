@@ -128,7 +128,7 @@
     {
         "id": "SMD0021",
         "info": {
-            "nome": " Gestão de Negócios Multimídia",
+            "nome": "Gestão de Negócios Multimídia",
             "tipo": "Optativa",
             "carga_horaria": "64h",
             "descricao": "Entendendo o Significado da Administração. Definindo o Negócio de Sua Empresa. Articulando Recursos e Competências. Gestão de pessoas. Gestão Operacional."
@@ -137,7 +137,7 @@
     {
         "id": "SMD0052",
         "info": {
-            "nome": " Programação Web",
+            "nome": "Programação Web",
             "tipo": "Optativa",
             "carga_horaria": "64h",
             "descricao": "Estrutura de funcionamento da World Wide Web. Modelos de programação para web. Linguagens de script para interface de aplicações web e formulários."
