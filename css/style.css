@@ -1,0 +1,81 @@
+body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+}
+
+/**
+    Fonts
+*/
+
+@font-face {
+    font-family: "roboto regular";
+    src: url("/fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "roboto bold";
+    src: url("/fonts/roboto/Roboto-Bold.ttf");
+}
+
+/**
+    Lines at the top and bottom of the page
+*/
+.top-line, .bottom-line{
+    width: 100%;
+    position: fixed;
+    background: #25363A;
+    padding: 0;
+    color: white;
+    text-align: center;
+    right: 0;
+    height: 19px;
+}
+
+.top-line{
+    top: 0;
+}
+
+.bottom-line{
+    bottom: 0;
+}
+
+/**
+    Header
+*/
+
+header{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/** 
+    Header title
+*/
+
+header .title{
+}
+header .title h1{
+    font-family: "roboto regular";
+}
+header .title h2{
+    font-family: "roboto bold";
+    height: 1px;
+    border-radius: 10px;
+    box-shadow: 0 29pt 0 0 #000;
+}
+header .title h1, header .title h2{
+    font-size: 24pt;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 4px;
+}
+
+/**
+    Header logos
+*/
+
+.logos{
+}
