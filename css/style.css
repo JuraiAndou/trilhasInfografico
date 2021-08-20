@@ -52,14 +52,19 @@ header{
 }*/
 header .title h1{
     font-family: "Roboto", sans-serif;
-    font-weight: lighter;
+    font-weight: 400;
+    color: #5B5B5B
 }
 header .title h2{
+    color: #25363A;
     font-family: "Roboto";
-    font-weight: bold;
-    height: 1px;
+    font-weight: 700;
+}
+#title_underline{
+    background: #25363A;
+    height: 5px;
+    width: 80pt;
     border-radius: 10px;
-    box-shadow: 0 29pt 0 0 #000;
 }
 header .title h1, header .title h2{
     font-size: 24pt;
@@ -73,6 +78,35 @@ header .title h1, header .title h2{
 */
 
 .logos{
+    display: flex;
+    align-items: center;
+
     font-family: "Roboto";
     font-weight: bold;
+    height: 89px;
 }
+
+#logo-smd, #logo-naumsei{
+    width: 152px;
+    border-radius: 18.5px;
+    box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.25);
+    height: 73px;
+    transition: width .5s, height .5s;
+}
+
+#logo-smd:hover, #logo-naumsei:hover{
+    width: 160px;
+    height: 78px;
+}
+
+#logo-smd{
+    background-image: url("/images/Group\ 7.png");
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+}
+#logo-naumsei{
+    background-image: url("/images/Group\ 290.png");
+    background-position: center;
+    background-size: cover;
+} 
