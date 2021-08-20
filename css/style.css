@@ -1,7 +1,11 @@
 body{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 15px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#content{
+    padding-left: 36.5px;
 }
 
 /**
@@ -13,9 +17,14 @@ body{
 /**
     Lines at the top and bottom of the page
 */
-.top-line, .bottom-line{
+
+#wrapper{
+    min-height: 100vh;
+    position: relative;
+}
+
+.lines{
     width: 100%;
-    position: fixed;
     background: #25363A;
     padding: 0;
     color: white;
@@ -24,11 +33,16 @@ body{
     height: 19px;
 }
 
-.top-line{
+#top-line{
     top: 0;
+    margin-bottom: 50px;
 }
-
-.bottom-line{
+#content-footer-separation{
+    width: 100%;
+    height: 50px;
+}
+#bottom-line{
+    position: absolute;
     bottom: 0;
 }
 
@@ -64,7 +78,7 @@ header .title h2{
     background: #25363A;
     height: 5px;
     width: 80pt;
-    border-radius: 10px;
+    border-radius: 23px;
 }
 header .title h1, header .title h2{
     font-size: 24pt;
@@ -110,3 +124,62 @@ header .title h1, header .title h2{
     background-position: center;
     background-size: cover;
 } 
+
+/*
+    Corpo do Infográfico
+*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 50px;
+
+}
+#sec-left{
+    display: flex;
+    flex-direction: column;
+    width: 178px;
+}
+#sec-right{
+    width: 100%;
+    margin-left: 20px;
+
+    background-color: blue;
+}
+
+/*
+    Ícones das trilhas
+*/
+.trilha-icon{
+    height: 149px;
+    width: 178px;
+    background: darkseagreen;
+    border-radius: 24px;
+    margin-bottom: 30px;
+}
+
+#trilha-sys{
+    background-image: url("../images/sistemas-icon.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#trilha-dgn{
+    background-image: url("../images/design-icon.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#trilha-gms{
+    background-image: url("../images/jogos-icon.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#trilha-av{
+    background-image: url("../images/sistemas-icon.png");
+    background-position: center;
+    background-size: cover;
+}
