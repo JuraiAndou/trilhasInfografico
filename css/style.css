@@ -61,9 +61,6 @@ header{
 /** 
     Header title
 */
-
-/*header .title{
-}*/
 header .title h1{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -155,9 +152,12 @@ main{
 .trilha-icon{
     height: 149px;
     width: 178px;
+    
     background: darkseagreen;
     border-radius: 24px;
     margin-bottom: 30px;
+
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.15);
 }
 
 #trilha-sys{
@@ -179,7 +179,7 @@ main{
 }
 
 #trilha-av{
-    background-image: url("../images/sistemas-icon.png");
+    background-image: url("../images/audiovisual-icon.png");
     background-position: center;
     background-size: cover;
 }
