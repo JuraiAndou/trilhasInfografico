@@ -28,22 +28,22 @@ function add_click_event(){
 
 function pop_up_tilha(){
     if($(this).attr('id') == "trilha-sys"){
-        $(".pop-up").css("background-image", "url(../images/sistemas.png)")
+        $(".pop-up").css("background-image", "url(images/sistemas.png)")
         $(".pop-up").css("background-size", "cover")
         $(".pop-up").css("background-position", "center")
     }
     if($(this).attr('id') == "trilha-dgn"){
-        $(".pop-up").css("background-image", "url(../images/design.png)")
+        $(".pop-up").css("background-image", "url(images/design.png)")
         $(".pop-up").css("background-size", "cover")
         $(".pop-up").css("background-position", "center")
     }
     if($(this).attr('id') == "trilha-gms"){
-        $(".pop-up").css("background-image", "url(../images/jogos.png)")
+        $(".pop-up").css("background-image", "url(images/jogos.png)")
         $(".pop-up").css("background-size", "cover")
         $(".pop-up").css("background-position", "center")
     }
     if($(this).attr('id') == "trilha-av"){
-        $(".pop-up").css("background-image", "url(../images/av.png)")
+        $(".pop-up").css("background-image", "url(images/av.png)")
         $(".pop-up").css("background-size", "cover")
         $(".pop-up").css("background-position", "center")
     }
