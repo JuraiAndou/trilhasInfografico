@@ -15,11 +15,47 @@ $(document).ready(function(){
 });
 
 function add_click_event(){
-    $("#btn-mexico").on("click", print_mexico)
-    $("#btn-hawaii").on("click", print_us)
     $(".cadeira").each(function(){
         $(this).on("click", pop_up_cadeira)
     })
+    $(".trilha-icon").each(function(){
+        $(this).on("click", pop_up_tilha)
+    })
+    $(".pop-up-bg").each(function(){
+        $(this).on("click", hide_trilha)
+    })
+}
+
+function pop_up_tilha(){
+    if($(this).attr('id') == "trilha-sys"){
+        $(".pop-up").css("background-image", "url(../images/sistemas.png)")
+        $(".pop-up").css("background-size", "cover")
+        $(".pop-up").css("background-position", "center")
+    }
+    if($(this).attr('id') == "trilha-dgn"){
+        $(".pop-up").css("background-image", "url(../images/design.png)")
+        $(".pop-up").css("background-size", "cover")
+        $(".pop-up").css("background-position", "center")
+    }
+    if($(this).attr('id') == "trilha-gms"){
+        $(".pop-up").css("background-image", "url(../images/jogos.png)")
+        $(".pop-up").css("background-size", "cover")
+        $(".pop-up").css("background-position", "center")
+    }
+    if($(this).attr('id') == "trilha-av"){
+        $(".pop-up").css("background-image", "url(../images/av.png)")
+        $(".pop-up").css("background-size", "cover")
+        $(".pop-up").css("background-position", "center")
+    }
+
+    $(".pop-up-bg").css("display", "block")
+    $(".pop-up-bg").css("animation-name", "show-bg")
+}
+
+function hide_trilha() {
+    $(".pop-up-bg").css("animation-name", "hide-bg")
+    $(".pop-up-bg").css("display", "none")
+    $(".pop-up").css("background", "white")
 }
 
 function pop_up_cadeira() {
@@ -29,11 +65,4 @@ function pop_up_cadeira() {
         }
         
     }
-}
-
-function print_mexico(){
-    $("body").append("<p>"+data[0].info.nome+"</p>")
-}
-function print_us(){
-    $("body").append("<p>"+data[0].id+"</p>")
 }

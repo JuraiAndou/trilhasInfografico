@@ -8,13 +8,27 @@ body{
     padding-left: 36.5px;
 }
 
-/**
+/*
+    Animations
+*/
+
+@keyframes show-bg {
+    from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes hide-bg {
+	from {opacity: 1;}
+	to {opacity: 0;}
+}
+
+/*
     Fonts
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/**
+/*
     Lines at the top and bottom of the page
 */
 
@@ -46,7 +60,7 @@ body{
     bottom: 0;
 }
 
-/**
+/*
     Header
 */
 
@@ -58,7 +72,7 @@ header{
     justify-content: space-between;
 }
 
-/** 
+/*
     Header title
 */
 header .title h1{
@@ -84,7 +98,7 @@ header .title h1, header .title h2{
     padding-bottom: 4px;
 }
 
-/**
+/*
     Header logos
 */
 
@@ -102,6 +116,7 @@ header .title h1, header .title h2{
     border-radius: 18.5px;
     box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.25);
     height: 73px;
+
     transition: width .5s, height .5s;
 }
 
@@ -140,10 +155,12 @@ main{
     width: 178px;
 }
 #sec-right{
+    display: flex;
+    flex-direction: column;
+
     width: 100%;
     margin-left: 20px;
-
-    background-color: blue;
+    margin-right: 5%;
 }
 
 /*
@@ -158,6 +175,13 @@ main{
     margin-bottom: 30px;
 
     box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.15);
+    
+    transition: width .5s, height .5s;
+}
+
+.trilha-icon:hover{
+    height: 160px;
+    width: 189px;
 }
 
 #trilha-sys{
@@ -182,4 +206,70 @@ main{
     background-image: url("../images/audiovisual-icon.png");
     background-position: center;
     background-size: cover;
+}
+
+/*
+    containers das cadeiras
+*/
+
+.cadeira-container{
+    min-height: 140px;
+    margin-bottom: 29px;
+    
+    border: #25363A solid 5px;
+    border-radius: 25px;
+    
+}
+
+#sys-container{
+    border-color: #57CADA;
+}
+
+#dgn-container{
+    border-color: #EC7289;
+}
+
+#gms-container{
+    border-color: #FF7870;
+}
+
+#av-container{
+    border-color: #FFBF65;
+}
+
+
+/*
+    pop-up styles
+*/
+
+.pop-up{
+    /*display: none;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 488px;
+    height: 377px;    
+    border-radius: 37px;
+    margin: -188.5px 0 0 -244px;
+
+    text-align: center;
+
+
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.pop-up-bg{
+    width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 11;
+	opacity:0;
+	animation-duration: 0.5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
